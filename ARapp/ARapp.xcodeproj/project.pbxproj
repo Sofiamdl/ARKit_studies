@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB01A3D299AB565000F37E1 /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB01A3C299AB565000F37E1 /* ARAction.swift */; };
+		BFB01A3F299AB70B000F37E1 /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB01A3E299AB70B000F37E1 /* ARManager.swift */; };
 		BFD5450C29968D9000A53CC7 /* ARappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5450B29968D9000A53CC7 /* ARappApp.swift */; };
 		BFD5450E29968D9000A53CC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5450D29968D9000A53CC7 /* ContentView.swift */; };
 		BFD5451029968D9100A53CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD5450F29968D9100A53CC7 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFB01A3C299AB565000F37E1 /* ARAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		BFB01A3E299AB70B000F37E1 /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
 		BFD5450829968D9000A53CC7 /* ARapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD5450B29968D9000A53CC7 /* ARappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARappApp.swift; sourceTree = "<group>"; };
 		BFD5450D29968D9000A53CC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				BFD5451D2996901700A53CC7 /* FeatureTargets */,
-				BFD5450D29968D9000A53CC7 /* ContentView.swift */,
 				BFD5450F29968D9100A53CC7 /* Assets.xcassets */,
 				BFD5451129968D9100A53CC7 /* Preview Content */,
 			);
@@ -74,9 +77,12 @@
 		BFD5451D2996901700A53CC7 /* FeatureTargets */ = {
 			isa = PBXGroup;
 			children = (
+				BFD5450D29968D9000A53CC7 /* ContentView.swift */,
 				BFD5451B29968F9600A53CC7 /* CustomARViewRepresentable.swift */,
 				BFD5450B29968D9000A53CC7 /* ARappApp.swift */,
 				BFD5451929968E0800A53CC7 /* CustomARView.swift */,
+				BFB01A3C299AB565000F37E1 /* ARAction.swift */,
+				BFB01A3E299AB70B000F37E1 /* ARManager.swift */,
 			);
 			path = FeatureTargets;
 			sourceTree = "<group>";
@@ -152,8 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD5450E29968D9000A53CC7 /* ContentView.swift in Sources */,
+				BFB01A3D299AB565000F37E1 /* ARAction.swift in Sources */,
 				BFD5451A29968E0800A53CC7 /* CustomARView.swift in Sources */,
 				BFD5450C29968D9000A53CC7 /* ARappApp.swift in Sources */,
+				BFB01A3F299AB70B000F37E1 /* ARManager.swift in Sources */,
 				BFD5451C29968F9600A53CC7 /* CustomARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

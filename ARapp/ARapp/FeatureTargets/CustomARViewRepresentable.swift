@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct CustomARViewRepresentable: UIViewRepresentable {
+    let customArView = CustomARView()
     func makeUIView(context: Context) -> CustomARView {
-        return CustomARView()
+        return customArView
     }
     
     func updateUIView(_ uiView: CustomARView, context: Context) { }
+    
+    func raycastFunc(location: CGPoint) {
+        customArView.raycastFunc(location: location)
+    }
+
+    
 }
